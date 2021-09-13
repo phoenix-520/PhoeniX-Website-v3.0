@@ -1,9 +1,28 @@
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../src/fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../src/fonts/Montserrat-Light.ttf);
+    font-weight: light;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../src/fonts/Montserrat-Regular.ttf);
+    font-weight: regular;
+}
 body {
     margin: 0;
 }
 * {
     box-sizing: border-box;
 }
+
+// BACKGROUND PARALLAX
+
 .scene {
     position: fixed;
     left: 0;
@@ -11,6 +30,7 @@ body {
     bottom: 0;
     right: 0;
     min-height: 100vh;
+    z-index: -99;
 }
 .layer {
     position: absolute;
@@ -35,4 +55,77 @@ body {
 .layer-3 {
     background: url('../src/images/layer3.png') center no-repeat;
     background-size: cover;
+}
+
+// HEADER
+
+.header {
+    margin: 0;
+    &__img {
+        width: 70px;
+        height: 75px;
+    }
+    &__title {
+        color: #fff;
+        span:hover {
+            color: #CB4900;
+        }
+        
+    }
+    &__titlelink {
+        text-decoration: none;
+    }
+}
+.navbar__link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 16px;
+    &:hover {
+        color: #CB4900;
+    }
+}
+
+
+.search {
+  
+  &__input {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 18px 0 0 18px;
+    // border-right: none;
+    float: left;
+    width: 80%;
+    background-color: transparent;
+    color: #fff;
+    outline:none;
+    &::-webkit-input-placeholder { color: white; }
+  }
+  &__btn {
+    background-color: transparent;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0 18px 18px 0;
+    border-left: none;
+    cursor: pointer;
+    &:hover {
+        background: #CB4900;
+        color: #fff;
+    }
+
+  }
+}
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    cursor: pointer;
+    background: url(../src/icons/times-solid.svg) no-repeat;
 }

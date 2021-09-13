@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/icons/fontawesome-free-5.15.4-web/css/all.css">
     <title>PhoeniX</title>
 </head>
 <body>
@@ -15,6 +17,38 @@
         <div data-speed="60" class="layer layer-2"></div>
         <div data-speed="90" class="layer layer-3"></div>
     </div>
+
+    <!-- HEADER -->
+
+    <header class="header p-3 mb-3">
+        <div class="container">
+          <div class="header__inner d-flex align-items-center justify-content-between">
+           <div class="header__logo d-flex align-items-center justify-content-center">
+            <a href="/" class="mb-2 mb-lg-0">
+                <img class="header__img" src="src/images/logo.png" alt="">
+              </a>
+              <a href="#" class="header__titlelink">
+                <h1 class="header__title m-0">Phoeni<span>X</span></h1>
+              </a>
+           </div>
+    
+           <div class="header__navbar d-flex align-items-center">
+            <ul class="navbar nav">
+                <li><a href="#" class="navbar__link  px-2">ГЛАВНАЯ</a></li>
+                <li><a href="#" class="navbar__link  px-2">О НАС</a></li>
+                <li><a href="#" class="navbar__link  px-2">ССЫЛКИ</a></li>
+                <li><a href="#" class="navbar__link  px-2">ПРОЕКТЫ</a></li>
+              </ul>
+           </div>
+    
+            <form class="search">
+              <input type="search" class="search__input" placeholder="Поиск..." aria-label="Search">
+              <button class="search__btn" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </header>
+
     <script src="js/app.js"></script>
 </body>
 </html>

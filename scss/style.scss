@@ -1,22 +1,30 @@
-
 @font-face {
     font-family: "Montserrat";
     src: url(../src/fonts/Montserrat-Bold.ttf);
     font-weight: bold;
 }
+
 @font-face {
     font-family: "Montserrat";
     src: url(../src/fonts/Montserrat-Light.ttf);
     font-weight: light;
 }
+
 @font-face {
     font-family: "Montserrat";
     src: url(../src/fonts/Montserrat-Regular.ttf);
     font-weight: regular;
 }
+
+@font-face {
+    font-family: "Roboto-bold";
+    src: url(../src/fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
 body {
     margin: 0;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -32,6 +40,7 @@ body {
     min-height: 100vh;
     z-index: -99;
 }
+
 .layer {
     position: absolute;
     left: -10%;
@@ -44,14 +53,17 @@ body {
     background: url('../src/images/layerbg.png') center no-repeat;
     background-size: cover;
 }
+
 .layer-1 {
     background: url('../src/images/layer1.png') center no-repeat;
     background-size: cover;
 }
+
 .layer-2 {
     background: url('../src/images/layer2.png') center no-repeat;
     background-size: cover;
 }
+
 .layer-3 {
     background: url('../src/images/layer3.png') center no-repeat;
     background-size: cover;
@@ -61,27 +73,33 @@ body {
 
 .header {
     margin: 0;
+
     &__img {
         width: 70px;
         height: 75px;
     }
+
     &__title {
         color: #fff;
+
         span:hover {
             color: #CB4900;
         }
-        
+
     }
+
     &__titlelink {
         text-decoration: none;
     }
 }
+
 .navbar__link {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: "Montserrat";
     font-weight: bold;
     font-size: 16px;
+
     &:hover {
         color: #CB4900;
     }
@@ -89,38 +107,44 @@ body {
 
 
 .search {
-  
-  &__input {
-    padding: 10px;
-    font-size: 17px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 18px 0 0 18px;
-    // border-right: none;
-    float: left;
-    width: 80%;
-    background-color: transparent;
-    color: #fff;
-    outline:none;
-    &::-webkit-input-placeholder { color: white; }
-  }
-  &__btn {
-    background-color: transparent;
-    float: left;
-    width: 20%;
-    padding: 10px;
-    color: white;
-    font-size: 17px;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 0 18px 18px 0;
-    border-left: none;
-    cursor: pointer;
-    &:hover {
-        background: #CB4900;
+
+    &__input {
+        padding: 10px;
+        font-size: 17px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 18px 0 0 18px;
+        // border-right: none;
+        float: left;
+        width: 80%;
+        background-color: transparent;
         color: #fff;
+        outline: none;
+
+        &::-webkit-input-placeholder {
+            color: white;
+        }
     }
 
-  }
+    &__btn {
+        background-color: transparent;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        color: white;
+        font-size: 17px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 0 18px 18px 0;
+        border-left: none;
+        cursor: pointer;
+
+        &:hover {
+            background: #CB4900;
+            color: #fff;
+        }
+
+    }
 }
+
 input[type="search"]::-webkit-search-cancel-button {
     -webkit-appearance: none;
     width: 20px;
@@ -128,4 +152,27 @@ input[type="search"]::-webkit-search-cancel-button {
     color: #fff;
     cursor: pointer;
     background: url(../src/icons/times-solid.svg) no-repeat;
+}
+
+// Section mentors
+.mentors {
+    height: 670px;
+    background-color: #3D0000;
+    margin: 100px 0;
+
+    &__title {
+        font-family: "Roboto-bold";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 62px;
+        line-height: 54px;
+        text-align: center;
+        letter-spacing: 0.185em;
+        padding: 40px 0 0 0;
+        color: #FFFFFF;
+    }
+}
+#mentors__carousel {
+    width: 80%;
+    margin: 60px auto;
 }

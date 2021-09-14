@@ -17,5 +17,5 @@
         "../src/icons/fontawesome-free-5.15.4-web/scss/_screen-reader.scss"
     ],
     "names": [],
-    "file": "fontawesome.css"
+    "file": "fontawesome.min.css"
 }

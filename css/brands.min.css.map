@@ -6,5 +6,5 @@
         "../src/icons/fontawesome-free-5.15.4-web/scss/_variables.scss"
     ],
     "names": [],
-    "file": "brands.css"
+    "file": "brands.min.css"
 }

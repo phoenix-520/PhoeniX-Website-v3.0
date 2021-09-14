@@ -7,5 +7,5 @@
         "../src/icons/fontawesome-free-5.15.4-web/scss/_shims.scss"
     ],
     "names": [],
-    "file": "v4-shims.css"
+    "file": "v4-shims.min.css"
 }

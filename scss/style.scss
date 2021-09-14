@@ -47,7 +47,7 @@ body {
 }
 ::-webkit-scrollbar-track {
     box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset ;
-    background: #3D0000;
+    background: #fa0f1fd3;
 }
 
 // BACKGROUND PARALLAX
@@ -225,7 +225,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .citation {
     text-align: center;
-    background-color: #3D0000;
+    background-color: #ee11209e;
     height: 300px;
     margin: 100px 0 150px;
     padding: 50px 0;
@@ -242,7 +242,7 @@ input[type="search"]::-webkit-search-cancel-button {
 // Section mentors
 .mentors {
     height: 670px;
-    background-color: #3D0000;
+    background-color:#ee11209e;
     margin: 100px 0;
 
     &__title {

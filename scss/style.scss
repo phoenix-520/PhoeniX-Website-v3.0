@@ -368,7 +368,7 @@
     
     //footer
     .footer {
-        background-color: #000;
+        background-color: #0E0000;
         color: #fff;
         font-family: "Montserrat";
         .container {
@@ -398,7 +398,6 @@
         &__logo-img {
             width: 80px;
             height: 80px;
-            margin-top: 15px;
         }
         &__logo-name {
             color: #fff;
@@ -411,8 +410,9 @@
             cursor: pointer;
             text-align: center;
         }
-        hr {
+        &__hr {
             border: 1.5px solid white;
+            margin-bottom: 7%;
         }
         &__first,
         &__second,
@@ -420,18 +420,48 @@
             margin-top: 20px;
         }
         &__icons {
-            text-align: center;
-            margin-top: 50px;
-            a {
-                padding: 15px;
+            width: 35%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            i {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 5px solid;
+                text-align: center;
+                line-height: 40px;
             }
-            img {
-                width: 40px;
-            }
+        }
+        .fa-youtube:hover {
+            border-color: red;
+            box-shadow: 0px 0px 30px red;
+            color: red;
+        }
+        .fa-google:hover {
+            border-color: #e33e2b #f1b401 #2ba14b #3a7cec;
+            box-shadow: 0px 0px 30px #f1b401;
+            color: #2ba14b;
+        }
+        .fa-github:hover {
+            border-color: #3a7cec;
+            box-shadow: 0px 0px 30px #3a7cec;
+            color: #3a7cec;
+        }
+        .fa-neos:hover {
+            border-color: #535353;
+            box-shadow: 0px 0px 30px #e9eaec;
+            color: #ebebeb;
+        }
+        .fa-instagram:hover {
+            border-color: #bc2a8d;
+            box-shadow: 0px 0px 30px #bc2a8d;
+            color: #bc2a8d;
         }
         &__copyright {
             text-align: center;
-            padding-top: 30px;
+            padding: 40px;
+            font-size: 12px;
             p {
                 margin: 0;
             }

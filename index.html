@@ -19,6 +19,7 @@
         <div data-speed="30" class="layer layer-1"></div>
         <div data-speed="50" class="layer layer-2"></div>
         <div data-speed="90" class="layer layer-3"></div>
+        <div data-speed="90" class="layer layer-4"></div>
     </div>
 
     <!-- HEADER -->
@@ -52,25 +53,33 @@
         </div>
     </header>
 
+    <!-- BANNER -->
+
     <section class="banner">
         <div class="container">
             <div class="banner__inner">
                 <h1 class="banner__title">Добро пожаловать в вебсайт команды Phoenix!</h1>
                 <h4 class="banner__subtitle">Взмахни крыльями и взлетай!</h4>
-                <button class="banner__btn"><a href="#">Ссылки</a></button>
+                <button class="banner__btn"><a href="#links">Ссылки</a></button>
             </div>
         </div>
     </section>
+
+    <!-- CITATION -->
 
     <section class="citation">
         <div class="container">
             <div class="citation__inner">
                 <img src="src/icons/cita.png" alt="" class="citation__icon">
-                <h2 class="citation__title">“Просто вкалывайте, как черти. Если другие работают сорок часов в неделю, а вы пашете сто часов, то, даже делая то же самое, вы сможете достичь результата в два с половиной раза быстрее. То, на что другим потребуется год, вы сумеете сделать
+                <h2 class="citation__title">“Просто вкалывайте, как черти. Если другие работают сорок часов в неделю, а
+                    вы пашете сто часов, то, даже делая то же самое, вы сможете достичь результата в два с половиной
+                    раза быстрее. То, на что другим потребуется год, вы сумеете сделать
                     за четыре месяца”. ©Илон Маск</h2>
             </div>
         </div>
     </section>
+
+    <!-- MENTORS -->
 
     <main>
         <section class="mentors">
@@ -78,12 +87,18 @@
                 <h1 class="mentors__title">Mentors</h1>
                 <div id="mentors__carousel" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                            aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -129,18 +144,23 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#mentors__carousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#mentors__carousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#mentors__carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#mentors__carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </section>
-        <section class="link">
+
+        <!-- LINKS -->
+        <h1 class="title">ССылки</h1>
+        <section class="link" id="links">
             <div class="link__container container">
                 <div class="sidebar">
                     <div style="background: linear-gradient(229.99deg, #b8c7c7 -26%, #eceff0 145%);">
@@ -161,22 +181,65 @@
                     </div>
                 </div>
                 <div class="main-slide">
-                    <div style="background-image: url('https://images.unsplash.com/photo-1630754328109-013e18676561?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80');"></div>
-                    <div style="background-image: url('https://images.unsplash.com/photo-1618876994796-6bfc1a46299b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');"></div>
-                    <div style="background-image: url('https://images.unsplash.com/photo-1623842529695-f056295fd8e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');"></div>
-                    <div style="background-image: url('https://images.unsplash.com/photo-1625758600922-4085dd859395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');"></div>
+                    <div
+                        style="background-image: url('https://images.unsplash.com/photo-1630754328109-013e18676561?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80');">
+                    </div>
+                    <div
+                        style="background-image: url('https://images.unsplash.com/photo-1618876994796-6bfc1a46299b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');">
+                    </div>
+                    <div
+                        style="background-image: url('https://images.unsplash.com/photo-1623842529695-f056295fd8e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');">
+                    </div>
+                    <div
+                        style="background-image: url('https://images.unsplash.com/photo-1625758600922-4085dd859395?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80');">
+                    </div>
                 </div>
                 <div class="controls">
                     <button class="link__btn down-button">
-            <i class="fas fa-arrow-down"></i>
-          </button>
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
                     <button class="link__btn up-button">
-            <i class="fas fa-arrow-up"></i>
-          </button>
+                        <i class="fas fa-arrow-up"></i>
+                    </button>
                 </div>
             </div>
         </section>
     </main>
+
+    <!-- Project -->
+
+    <h1 class="title">Проекты</h1>
+    <section class="project">
+
+        <div class="project__container">
+            <div class="slide active" style="background-image: url('src/images/header.png');">
+                <h3>Website Bootstrap 5</h3>
+            </div>
+            <div class="slide" style="
+      background-image: url('https://w-dog.ru/wallpapers/13/3/288403949342511/art-risunok-ptica-feniks-polet-perya.jpg');
+    ">
+                <h3>Unknown</h3>
+            </div>
+            <div class="slide" style="
+      background-image: url('https://lookw.ru/8/886/1476181314-25.png');
+    ">
+                <h3>Unknown</h3>
+            </div>
+            <div class="slide" style="
+      background-image: url('https://yobte.ru/uploads/posts/2019-11/feniks-59-foto-9.jpg');
+    ">
+                <h3>Unknown</h3>
+            </div>
+            <div class="slide" style="
+      background-image: url('https://demiart.ru/forum/uploads20/post-2776623-1503956077.jpg');
+    ">
+                <h3>Unknown</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
     <footer class="footer">
         <div class="container">
             <div class="footer__main">
@@ -197,7 +260,7 @@
                 <div class="footer__second">
                     <ul>
                         <li><a class="footer__links" href="#">Менторы</a></li>
-                        <li><a href="#">Ссылки</a></li>
+                        <li><a class="footer__links" href="#">Ссылки</a></li>
                     </ul>
                 </div>
                 <div class="footer__third">
